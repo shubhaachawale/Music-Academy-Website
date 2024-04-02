@@ -1,0 +1,137 @@
+
+
+*
+{
+    margin: 0px;
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+
+}
+
+@keyframes mybanner{
+  0%{background-image: url(https://t4.ftcdn.net/jpg/05/77/01/63/360_F_577016372_QLX8ZUUPTMOku5zXoFY2s78cR3JdPGmS.jpg);}
+  50%{background-image: url(https://cdn.pixabay.com/photo/2015/08/03/10/25/banner-873106_1280.jpg);}
+  100%{background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-purple-minimalistic-glare-music-notes-banner-background-image_210610.jpg);}
+}
+.middle{
+    height: 300px;
+    width: 100%;
+    animation-name: mybanner;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.container
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.card:hover
+{
+    transform: scale(0.9);
+    transition: 5s;
+    box-shadow: 4px 4px 10px black;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.layout1{
+    height: 70px;
+    width: 5%;
+    /* background-color: pink; */
+    float: left;
+}
+.layout2{
+    height: 70px;
+    width: 95%;
+   float: right;
+}
+ul li {
+    float: left;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 22px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.formlayout
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 400px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: #FDC329;
+}
+
+.part1
+{
+    height: 400px;
+    width: 50%;
+    background-image: url(https://cdn.dribbble.com/users/1172503/screenshots/4505740/login-form.gif);
+    float: left;
+    background-size: cover;
+}
+.part2
+{
+    height: 400px;
+    width: 50%;
+    background-color: #FDC329;
+    float: right;
+}
+
+@keyframes m {
+    from { color: orangered; transform: scale(1.1); font-size: medium;}
+    to { color: black;transform: scale(60%);}
+}
+
+.Myanimation{
+    animation-name: m;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+input[type ='text'],input[type ="password"],input[type ="submit"]
+{
+    height: 60px;
+    width: 300px;
+    background-color:#FDC329 ;
+    border:2px solid black ;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.maplayout
+{
+    height: 500px;
+    width: 100%;
+    background-color: #FDC329;
+}
+
